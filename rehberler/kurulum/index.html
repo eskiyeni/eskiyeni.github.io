@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+    <meta charset="UTF-8">
+    <title>Kurulum</title>
+    </head>
+    <style>
+        body {
+            background-color: #1A002A;
+            color: white; 
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+        .centered {
+            text-align: center;
+        }
+        .boşluklu {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        h1 {
+            text-align: center;
+            color: purple;
+            font-size: 70px;
+        }
+        h2 {
+            font-size: 35px;
+            color: #61A96F;
+        }
+        h3 {
+            font-size: 25px;
+            color: #C38EC7;
+        }
+        .site {
+            color: purple;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px; 
+            text-align: left; /* Sol hizalama için eklendi */
+        }
+        .site_linkleri a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+    <body>
+        <div>
+            <h1 class="site site_linkleri">
+                <a href="http://192.168.1.104:7777" target="_self">eskiyeni.github.io</a>
+            </h1>
+        </div>
+        <div class="centered">
+            <h1>KURULUM</h1>
+        </div>
+        <div class="boşluklu">
+            <h2>Bu rehber Aİ HOŞİNO isimli Discord botunu sunucunuzda kullanıma hazır hale getirmeye yardımcı olacak</h2>
+            <h3>Botun kurulması gerekn özellikleri:</h3>
+            <ul>
+                <li><em>giriş-çıkış</em> mesajları</li>
+                <li><em>partner</em> sistemi</li>
+                <li><em>şikayet</em> sistemi</li>
+            </ul>
+            <h3>Bunları kurmak için <em>/kurulum</em> komutunu kullanmanız yeterlidir. Kurulum komutunda girmeniz gereken bilgiler:</h3>
+            <ul>
+                <li><strong>giriş_çıkış_kanalı:</strong> Sunucunuza katılan ve sunucunuzdan ayrılan üyelerin mesajlarının gönderileceği kanal.</li>
+                <li><strong>giriş_metni:</strong> Sunucunuza üye katılınca gönderilecek olan mesaj.</li>
+                <li><strong>çıkış_metni:</strong> Sunucunuzdan üye ayrılınca gönderilecek olan mesaj.</li>
+                <li><strong>partner_kanalı:</strong> <em>_oto_partner_</em> sisteminde kullanılacak olan partner kanalı.</li>
+                <li><strong>partner_metni:</strong> <em>_oto_partner_</em> sisteminde kullanılacak olan partner metni.</li>
+                <li><strong>şikayet_kanalı:</strong> <em>_şikayet_</em> sisteminde kullanılacak olan kanal.</li>
+                <li><strong>şikayet_metni_kullanıcı:</strong> <em>_şikayet_</em> sisteminde kullanıcıya gönderilecek olan mesaj.</li>
+                <li><strong>şikayet_metin_yönetici:</strong> <em>_şikayet_</em> sisteminde yetkililerin göreceği mesaj.</li>
+            </ul>
+            <h3>Metinleri tek satıra düşürme:</h3>
+            <p><em>/metin_düzenle</em> komutu ile metinleri tek satıra düşürebilirsiniz.</p>
+            <h3>Metinlerde kullanabileceğiniz değerler:</h3>
+            <ul>
+                <li><strong>{sunucu_adı}:</strong> Sunucunuzun adı</li>
+                <li><strong>{sunucu_id}:</strong> Sunucunuzun id değeri</li>
+                <li><strong>{toplam_üye}:</strong> Sunucunuzdaki toplam üye</li>
+                <li><strong>{üye_isim}:</strong> Komutu kullanan/sunucuya katılan/sunucudan ayrılan üyenin ismi</li>
+                <li><strong>{üye_etiket}:</strong> Komutu kullanan/sunucuya katılan/sunucudan ayrılan üyenin etiketlenmesi</li>
+                <li><strong>{üye_id}:</strong> Komutu kullanan/sunucuya katılan/sunucudan ayrılan üyenin id değeri</li>
+                <li><strong>{hesap_oluşturuldu}:</strong> Komutu kullanan/sunucuya katılan/sunucudan ayrılan üyenin hesabının oluşturulma zamanı</li>
+                <li><strong>{sunucuya_katıldı}:</strong> Komutu kullanan/sunucuya katılan/sunucudan ayrılan üyenin sunucuya katılma zamanı</li>
+            </ul>            
+        </div>
+    </body>
+</html>
